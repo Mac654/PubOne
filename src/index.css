@@ -1,0 +1,161 @@
+ body {
+  margin: 0;
+  font-family: 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F2FF;
+}
+
+
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 321px;
+  height: 160px;
+  left: calc(50% - 321px/2);
+  top: 94px;
+}
+.homeTitle {
+  background: -webkit-linear-gradient(#8456EC, #E87BF8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+.h1Title {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+color:"#240D57";
+font-size:'36px'
+}
+.underTitle {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #4F4F4F;
+}
+
+.btnCreateEvent {
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px; */
+  gap: 10px;
+  
+  position: absolute;
+  width: 187px;
+  height: 50px;
+  left: calc(50% - 187px/2);
+  top: 616px;
+  
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.createImgDiv {
+  display: block;
+  max-width: 425px;
+}
+.birthdayImg {
+  display: block;
+  width: 100%;
+}
+
+.eventName {
+  color: #240D57;
+}
+.hostName {
+  color:#828282;
+}
+.bdayDate {
+  color: #4F4F4F;
+  font-weight: 600;
+}
+.streetP {
+  color:#BDBDBD;
+  font-weight: 600;
+}
+.bdayTime {
+  font-weight: 600;
+  color:#828282;
+}
+
+.btnCreateEventTwo {
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px; */
+  gap: 10px;
+  
+  width: 187px;
+  height: 50px;
+  left: calc(50% - 187px/2);
+  top: 616px;
+  
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.centerNext {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+input {
+  margin-top: 5px !important;
+}
+.Create {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.eventDivLeft {
+  text-align: left;
+}
+
+.iconCalendar {
+  width: 24px;
+height: 24px;
+}
+
+.calendarDate {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.innerClendarDate {
+  display: flex;
+  flex-direction: column
+}
