@@ -2,7 +2,7 @@ import { TextField } from "@mui/material";
 import { DateTimePicker } from "@mui/x-date-pickers";
 import dayjs, { Dayjs } from "dayjs";
 import React, { useContext, useState } from "react";
-import envitedContext, { EnvitedContext } from "../context/EnvitedContext";
+import { EnvitedContext } from "../context/EnvitedContext";
 import { FormInterface } from "../Interface/FormInterface";
 
 interface Props {}
